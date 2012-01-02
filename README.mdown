@@ -4,8 +4,6 @@ I was interested in teaching my brother a little bit about LISP programming. We 
 
 In case you're unfamiliar with this puzzle here's the [Wikipedia article](http://en.wikipedia.org/wiki/Tower_of_Hanoi "Towers of Hanoi Wikipedia Page").
 
----
-
 ##Using this program
 
 I installed [CLISP](http://www.clisp.org/ "CLISP Homepage") by using [Homebrew](http://mxcl.github.com/homebrew/ "Homebrew Homepage"): `brew install clisp`.
