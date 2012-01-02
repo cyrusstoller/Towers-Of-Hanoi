@@ -1,0 +1,19 @@
+##Solution to the Towers of Hanoi
+
+I was interested in teaching my brother a little bit about LISP programming. We were sitting in our grandmother's living room and she happened to have a Towers of Hanoi Puzzle on the coffee table.
+
+In case you're unfamiliar with this puzzle here's the [Wikipedia article](http://en.wikipedia.org/wiki/Tower_of_Hanoi "Towers of Hanoi Wikipedia Page").
+
+---
+
+##Using this program
+
+I installed [CLISP](http://www.clisp.org/ "CLISP Homepage") by using [Homebrew](http://mxcl.github.com/homebrew/ "Homebrew Homepage"): `brew install clisp`.
+
+Navigate to the directory with `hanoi.lisp` and type `clisp`. Once you have a prompt type `(load "hanoi.lisp")`.
+
+**To see the moves**
+`(hanoi N)` where N is the number of discs.
+
+**To only see the number of moves**
+`(silent-hanoi N)`
